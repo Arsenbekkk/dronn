@@ -1,0 +1,10 @@
+@mixin sb{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin da{
+  display: flex;
+  align-items: center;
+}

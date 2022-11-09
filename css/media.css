@@ -1,0 +1,114 @@
+@media(max-width: 1440px){
+    #footer {
+        width: 1440px;
+    }
+}
+@media(max-width: 1200px){
+
+    #katalog .katalog--numbers__block1 p {
+        width: 153.1px;
+    }
+    #footer {
+        width: 1200px;
+    }
+    #katalog .katalog--numbers__block1 h2 {
+        font-size: 40px;
+    }
+}
+@media(max-width: 1024px){
+    #hot .hot--proceeds {
+        width: 966px;
+    }
+    #footer{
+        width: 1024px;
+    }
+    #hero .hero--right img {
+        position: absolute;
+        width: 449px;
+        top: 50px;
+        left: -98px;
+    }
+    #footer .footer {
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #katalog .katalog--numbers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
+@media(max-width: 992px){
+    #hero .hero--right {
+        position: relative;
+        height: 444px;
+        width: 392px;
+    }
+    #footer{
+        width: 992px;
+    }
+    #hot .hot--proceeds {
+        width: 942px;
+    }
+}
+
+
+
+
+
+@media(max-width: 768px){
+    #hot .hot--blocks {
+        margin-top: 80px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #hot .hot--blocks__block1 {
+        margin-bottom: 20px;
+    }
+    #hot .hot--blocks__block2 {
+        margin-bottom: 20px;
+    }
+    .header--a a{
+        display: none;
+
+    }
+    #header .header {
+        display: flex;
+        align-items: start;
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #kataalog .header--gadget img,h5,p{
+        display: none;
+    }
+    #katalog .katalog--blocks1__block3 {
+        display: none;
+    }
+
+    #katalog .katalog--blocks2__block3 {
+        display: none;
+    }
+
+    #katalog .katalog--blocks1__block4 {
+        display: none;
+    }
+    #katalog .katalog--blocks2__block4 {
+        display: none;
+    }
+
+
+}
+
+
+@media(max-width: 480px){}
+
+
+@media(max-width: 320px){}
